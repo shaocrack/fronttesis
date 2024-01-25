@@ -25,7 +25,6 @@ const App = () => {
         <Route path="/banco/agregar-tarjeta" element={<AgregarTarjeta />} />
         <Route path="/banco/consultar-tarjeta" element={<ConsultarTarjeta />} />
         <Route path="/final" element={<Final />} /> 
-
       </Routes>
     </Router>
   );
